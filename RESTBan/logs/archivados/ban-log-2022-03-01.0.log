@@ -1,0 +1,282 @@
+2022-03-01 10:59:33,292 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-03-01 10:59:33,419 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestBanApplication using Java 17 on DESKTOP-7MSQ4EU with PID 12812 (C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan\target\classes started by usuario in C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan)
+2022-03-01 10:59:33,422 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-01 10:59:33,706 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 10:59:33,707 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 10:59:35,498 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-01 10:59:35,599 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2022-03-01 10:59:36,711 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8001 (http)
+2022-03-01 10:59:36,729 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8001"]
+2022-03-01 10:59:36,729 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-01 10:59:36,729 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 10:59:36,876 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-01 10:59:36,878 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3170 ms
+2022-03-01 10:59:36,927 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-03-01 10:59:37,283 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-03-01 10:59:37,297 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ban'
+2022-03-01 10:59:37,499 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-01 10:59:37,618 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-03-01 10:59:37,961 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-01 10:59:38,217 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-01 10:59:38,865 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.ibm.academy.restapi.ban.modelo.entidades.Ban (class must be instantiated by Interceptor)
+2022-03-01 10:59:39,346 INFO org.hibernate.tool.schema.internal.exec.AbstractScriptSourceInput [restartedMain] HHH000476: Executing import script 'file:/C:/Users/usuario/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/APIRESTIP/RESTBan/target/classes/import.sql'
+2022-03-01 10:59:39,372 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-01 10:59:39,390 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 10:59:40,012 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-01 10:59:40,565 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-01 10:59:40,589 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8001"]
+2022-03-01 10:59:40,663 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8001 (http) with context path '/api/v1/rest-ban'
+2022-03-01 10:59:40,679 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestBanApplication in 8.154 seconds (JVM running for 11.02)
+2022-03-01 11:02:31,487 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8001-exec-6] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 11:02:31,487 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-6] Initializing Servlet 'dispatcherServlet'
+2022-03-01 11:02:31,489 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-6] Completed initialization in 1 ms
+2022-03-01 11:02:31,774 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8001-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1/rest-ban] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: No default constructor for entity:  : com.ibm.academy.restapi.ban.modelo.entidades.Ban; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.ibm.academy.restapi.ban.modelo.entidades.Ban] with root cause
+org.hibernate.InstantiationException: No default constructor for entity:  : com.ibm.academy.restapi.ban.modelo.entidades.Ban
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:85)
+	at org.hibernate.tuple.PojoInstantiator.instantiate(PojoInstantiator.java:105)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.instantiate(AbstractEntityTuplizer.java:705)
+	at org.hibernate.persister.entity.AbstractEntityPersister.instantiate(AbstractEntityPersister.java:5295)
+	at org.hibernate.internal.SessionImpl.instantiate(SessionImpl.java:1638)
+	at org.hibernate.loader.Loader.instanceNotYetLoaded(Loader.java:1774)
+	at org.hibernate.loader.Loader.getRow(Loader.java:1624)
+	at org.hibernate.loader.Loader.getRowFromResultSet(Loader.java:748)
+	at org.hibernate.loader.Loader.getRowsFromResultSet(Loader.java:1047)
+	at org.hibernate.loader.Loader.processResultSet(Loader.java:998)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:967)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1454)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1665)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:198)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy109.findByIp(Unknown Source)
+	at com.ibm.academy.restapi.ban.servicios.BanDAOImpl.buscarPorIp(BanDAOImpl.java:45)
+	at com.ibm.academy.restapi.ban.servicios.BanDAOImpl$$FastClassBySpringCGLIB$$c4380e04.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at com.ibm.academy.restapi.ban.servicios.BanDAOImpl$$EnhancerBySpringCGLIB$$99718a2c.buscarPorIp(<generated>)
+	at com.ibm.academy.restapi.ban.controladores.BanController.buscarPorIp(BanController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-03-01 11:28:05,125 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 11:28:05,126 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-6] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-01 11:28:05,446 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-6] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-01 11:28:05,452 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2022-03-01 11:28:05,478 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2022-03-01 11:28:05,686 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestBanApplication using Java 17 on DESKTOP-7MSQ4EU with PID 12812 (C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan\target\classes started by usuario in C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan)
+2022-03-01 11:28:05,686 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-01 11:28:06,104 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-01 11:28:06,119 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-03-01 11:28:06,289 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8001 (http)
+2022-03-01 11:28:06,290 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8001"]
+2022-03-01 11:28:06,290 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-01 11:28:06,290 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 11:28:06,354 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-01 11:28:06,354 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 660 ms
+2022-03-01 11:28:06,370 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-03-01 11:28:06,372 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-03-01 11:28:06,373 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ban'
+2022-03-01 11:28:06,419 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-01 11:28:06,432 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-01 11:28:06,473 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.ibm.academy.restapi.ban.modelo.entidades.Ban (class must be instantiated by Interceptor)
+2022-03-01 11:28:06,498 INFO org.hibernate.tool.schema.internal.exec.AbstractScriptSourceInput [restartedMain] HHH000476: Executing import script 'file:/C:/Users/usuario/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/APIRESTIP/RESTBan/target/classes/import.sql'
+2022-03-01 11:28:06,511 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-01 11:28:06,512 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 11:28:06,710 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-01 11:28:06,871 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-01 11:28:06,888 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8001"]
+2022-03-01 11:28:06,891 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8001 (http) with context path '/api/v1/rest-ban'
+2022-03-01 11:28:06,916 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestBanApplication in 1.314 seconds (JVM running for 1717.258)
+2022-03-01 11:28:06,919 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-03-01 11:28:08,414 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-8] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 11:28:08,415 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-8] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-01 11:28:08,618 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-8] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-01 11:28:08,621 INFO com.zaxxer.hikari.HikariDataSource [Thread-8] HikariPool-2 - Shutdown initiated...
+2022-03-01 11:28:08,627 INFO com.zaxxer.hikari.HikariDataSource [Thread-8] HikariPool-2 - Shutdown completed.
+2022-03-01 11:28:08,808 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestBanApplication using Java 17 on DESKTOP-7MSQ4EU with PID 12812 (C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan\target\classes started by usuario in C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan)
+2022-03-01 11:28:08,808 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-01 11:28:09,110 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-01 11:28:09,131 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2022-03-01 11:28:09,344 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8001 (http)
+2022-03-01 11:28:09,346 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8001"]
+2022-03-01 11:28:09,347 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-01 11:28:09,347 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 11:28:09,386 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-01 11:28:09,386 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 573 ms
+2022-03-01 11:28:09,400 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-03-01 11:28:09,403 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-03-01 11:28:09,404 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ban'
+2022-03-01 11:28:09,436 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-01 11:28:09,445 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-01 11:28:09,481 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.ibm.academy.restapi.ban.modelo.entidades.Ban (class must be instantiated by Interceptor)
+2022-03-01 11:28:09,499 INFO org.hibernate.tool.schema.internal.exec.AbstractScriptSourceInput [restartedMain] HHH000476: Executing import script 'file:/C:/Users/usuario/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/APIRESTIP/RESTBan/target/classes/import.sql'
+2022-03-01 11:28:09,509 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-01 11:28:09,510 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 11:28:09,608 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-01 11:28:09,718 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-01 11:28:09,726 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8001"]
+2022-03-01 11:28:09,728 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8001 (http) with context path '/api/v1/rest-ban'
+2022-03-01 11:28:09,742 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestBanApplication in 1.001 seconds (JVM running for 1720.084)
+2022-03-01 11:28:09,744 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-03-01 11:28:20,416 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(37)-127.0.0.1] Application shutdown requested.
+2022-03-01 11:28:20,439 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(37)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 11:28:20,440 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(37)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-01 11:28:20,651 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [RMI TCP Connection(37)-127.0.0.1] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-01 11:28:20,653 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(37)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2022-03-01 11:28:20,662 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(37)-127.0.0.1] HikariPool-3 - Shutdown completed.
+2022-03-01 16:10:32,952 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.0.Final
+2022-03-01 16:10:32,944 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestBanApplication using Java 17 on DESKTOP-7MSQ4EU with PID 24032 (C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan\target\classes started by usuario in C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan)
+2022-03-01 16:10:32,976 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-01 16:10:33,139 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-01 16:10:33,139 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-01 16:10:34,702 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-01 16:10:34,804 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2022-03-01 16:10:36,066 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8001 (http)
+2022-03-01 16:10:36,085 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8001"]
+2022-03-01 16:10:36,086 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-01 16:10:36,092 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 16:10:36,339 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-01 16:10:36,340 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3200 ms
+2022-03-01 16:10:36,400 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-03-01 16:10:36,776 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-03-01 16:10:36,795 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ban'
+2022-03-01 16:10:37,016 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-01 16:10:37,142 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-03-01 16:10:37,496 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-01 16:10:37,780 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-01 16:10:38,505 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.ibm.academy.restapi.ban.modelo.entidades.Ban (class must be instantiated by Interceptor)
+2022-03-01 16:10:39,079 INFO org.hibernate.tool.schema.internal.exec.AbstractScriptSourceInput [restartedMain] HHH000476: Executing import script 'file:/C:/Users/usuario/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/APIRESTIP/RESTBan/target/classes/import.sql'
+2022-03-01 16:10:39,108 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-01 16:10:39,138 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 16:10:39,861 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-01 16:10:40,454 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-01 16:10:40,478 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8001"]
+2022-03-01 16:10:40,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8001 (http) with context path '/api/v1/rest-ban'
+2022-03-01 16:10:40,552 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestBanApplication in 8.418 seconds (JVM running for 11.442)
+2022-03-01 16:11:31,239 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8001-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-01 16:11:31,240 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-9] Initializing Servlet 'dispatcherServlet'
+2022-03-01 16:11:31,242 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-9] Completed initialization in 1 ms
+2022-03-01 17:09:45,519 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 17:09:45,521 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-6] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-01 17:09:45,752 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-6] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-01 17:09:45,753 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2022-03-01 17:09:45,763 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2022-03-01 17:09:45,992 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestBanApplication using Java 17 on DESKTOP-7MSQ4EU with PID 24032 (C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan\target\classes started by usuario in C:\Users\usuario\Documents\workspace-spring-tool-suite-4-4.12.1.RELEASE\APIRESTIP\RESTBan)
+2022-03-01 17:09:45,993 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-03-01 17:09:46,501 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-01 17:09:46,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2022-03-01 17:09:46,810 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8001 (http)
+2022-03-01 17:09:46,813 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8001"]
+2022-03-01 17:09:46,814 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-03-01 17:09:46,814 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-01 17:09:46,865 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-03-01 17:09:46,865 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 864 ms
+2022-03-01 17:09:46,890 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-03-01 17:09:46,895 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-03-01 17:09:46,896 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ban'
+2022-03-01 17:09:46,961 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-01 17:09:46,993 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-01 17:09:47,043 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.ibm.academy.restapi.ban.modelo.entidades.Ban (class must be instantiated by Interceptor)
+2022-03-01 17:09:47,229 INFO org.hibernate.tool.schema.internal.exec.AbstractScriptSourceInput [restartedMain] HHH000476: Executing import script 'file:/C:/Users/usuario/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/APIRESTIP/RESTBan/target/classes/import.sql'
+2022-03-01 17:09:47,237 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-01 17:09:47,237 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 17:09:47,428 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-01 17:09:47,693 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-03-01 17:09:47,713 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8001"]
+2022-03-01 17:09:47,745 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8001 (http) with context path '/api/v1/rest-ban'
+2022-03-01 17:09:47,791 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestBanApplication in 1.884 seconds (JVM running for 3558.68)
+2022-03-01 17:09:47,797 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-03-01 20:25:40,509 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(285)-127.0.0.1] Application shutdown requested.
+2022-03-01 20:25:40,589 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(285)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 20:25:40,598 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(285)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-01 20:25:40,829 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [RMI TCP Connection(285)-127.0.0.1] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-01 20:25:40,830 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(285)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2022-03-01 20:25:40,833 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(285)-127.0.0.1] HikariPool-2 - Shutdown completed.

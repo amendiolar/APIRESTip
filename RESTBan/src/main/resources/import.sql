@@ -1,0 +1,10 @@
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('192.130.146.105','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('192.131.146.105','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('192.130.147.105','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('192.130.146.106','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('193.130.146.105','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('193.131.146.105','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('193.130.147.105','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('193.130.146.106','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('194.130.146.105','amendiola',now());
+INSERT INTO ban (ip, usuario_creacion, fecha_creacion) VALUES('194.131.146.105','amendiola',now());

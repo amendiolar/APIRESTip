@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ibm.academy.restapi.ban.modelo.entidades.Ban;
+import com.ibm.academy.restapi.ban.modelo.entidades.IpConsulta;
 import com.ibm.academy.restapi.ban.servicios.BanDAO;
 
 @RestController
@@ -32,12 +33,12 @@ public class BanController
 	 * @author AMR - 25-02-2022
 	 */
 	
-	@GetMapping("/validar/ip/{ip}")
-	public ResponseEntity<?> findByIp(@PathVariable String ipConsulta)
+	@GetMapping("/validar/ip/{ipConsulta}")
+	public ResponseEntity<?> findByIp(@PathVariable String ip2Check)
 	{
-		Iterable ban = banDao.findByIp(ipConsulta);
+		Iterable ban = banDao.findByIp(ip2Check);
 			JOptionPane.showMessageDialog(null,"La ip consultada se encuentra en la Lista Negra");
-		return new ResponseEntity<Iterable>(ban, HttpStatus.OK);
+		return new ResponseEntity<>(new IpConsulta(ip2Check), HttpStatus.OK);
 	}
 	
 }

@@ -13,4 +13,9 @@ public class IpConsulta
 {
 	private String ipConsulta;
 	
+	public IpConsulta(String ipConsulta)
+	{
+		this.ipConsulta = ipConsulta;
+	}
+	
 }

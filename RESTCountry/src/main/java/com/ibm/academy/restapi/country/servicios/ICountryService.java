@@ -2,7 +2,7 @@ package com.ibm.academy.restapi.country.servicios;
 
 import com.ibm.academy.restapi.country.modelo.entidades.Country;
 
-public interface CountryDAO 
+public interface ICountryService
 {
 	public String checkByIp(String ip);
 	public Country findByIp(String ipCountry);

@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 import com.ibm.academy.restapi.country.modelo.entidades.Country;
 
 @Service
-public class CountryDAOImpl implements CountryDAO 
+public class CountryServiceImpl implements ICountryService
 {
 	@Autowired
 	private RestTemplate clienteRest;

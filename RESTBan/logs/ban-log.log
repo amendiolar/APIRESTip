@@ -31,3 +31,4 @@
 2022-03-03 19:49:44,151 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-6] Initializing Servlet 'dispatcherServlet'
 2022-03-03 19:49:44,153 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8001-exec-6] Completed initialization in 1 ms
 2022-03-03 19:49:44,198 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8001-exec-6] Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'ip2Check' for method parameter type String is not present]
+2022-03-03 19:50:23,066 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8001-exec-10] Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'ip2Check' for method parameter type String is not present]

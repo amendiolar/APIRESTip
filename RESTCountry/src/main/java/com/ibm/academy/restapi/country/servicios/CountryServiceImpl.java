@@ -1,6 +1,8 @@
 package com.ibm.academy.restapi.country.servicios;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,11 +28,10 @@ public class CountryServiceImpl implements ICountryService
 	@Override
 	public Country findByIp(String ipCountry) 
 	{
-		Json <Country> country =
-				clienteRest.getForObject("http://api.ipapi.com/api/{ip}", ipCountry);
-		String pais = country.getString("country_name");
-		String codigo = country.getString("currency.code");
-		return pais, codigo;
+		Map<String, String> variable = new HashMap<String, String>();
+		variable.put("ipCountry", ipCountry);
+		Country country = clienteRest.getForObject("http://api.ipapi.com/api/{ipCountry}", Country.class, variable);
+		return new Country();
 	}
 
 	@Override
